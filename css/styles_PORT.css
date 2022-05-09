@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* GENERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+.test {
+/*    border: 3px solid red;*/
+}
+body {
+    font:400 1rem /1.13rem "Crimson Text", 'Cambria', sans-serif;
+	color: #141414;
+/*    background-color: #F5F5F5;*/
+    background-color: #fcf8f7;
+/*    background-color: floralwhite;*/
+    outline: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #444444;
+/*    height: 37rem;*/
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 1rem;
+    color: #444444;
+}
+p .info {
+    width: 50%;
+}
+section {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container {
+    width: auto;
+    max-width: 75.00rem;
+    margin: 0 auto;
+    padding:0;
+/*    border: 3px solid green;*/
+}
+.flex {
+	width: 100%;
+	margin: 0 auto;
+    display: flex;
+/*    flex-wrap: wrap;*/
+    justify-content: space-between;
+/*    align-items: center;*/
+}
+a {
+	color: white;
+    text-decoration: none;
+}
+
+/*          NAVIGATION          */
+.nav {
+	padding: 0rem 3.13rem;
+	text-align: center;
+    align-items: center;
+/*    color: #A5B591;*/
+    color: #BF7950;
+/*    background-color: #F5F5F5;*/
+    text-decoration: none;
+    display: flex;
+/*    justify-content: flex-end;*/
+    list-style-type: none;
+}
+.nav li {
+    margin: 1.25rem;
+}
+/*
+.nav img {
+    width: 8%;
+}
+*/
+/*
+.nav .flex {
+	width: 40%;
+	margin: 0;
+}
+.nav .flex2 {
+	width: 100%;
+    margin: 0;
+    text-align: end;
+    justify-content: flex-end;
+}
+*/
+.nav .flex a {
+	width: 100%;
+	margin: 0 auto;
+    color: white;
+	font:600 1rem/1.5rem 'Roboto', sans-serif;
+}
+.nav .flex a:hover {
+/*    background-color: aqua;*/
+    color: black;
+}
+.nav .flex .logo {
+    padding: 0;
+    margin: 0;
+    color: #444444;
+}
+.upArrow {
+    color: black;
+    margin: auto;
+/*    font-family: 'Roboto', sans-serif;*/
+}
+.bottom_header {
+  text-align: center;
+    margin: auto;
+    width: 100%;
+}
+footer .wide a:active, 
+footer .wide a:visited, 
+footer .wide a:hover, 
+footer .wide a:link {
+/*	font:100 1rem /1.13rem 'Roboto', sans-serif;*/
+    color: red;
+    margin: auto;
+    padding: 1.25rem;
+    color: #444444; 
+}
+a:active, a:visited, a:hover,a:link {
+/*	font:100 1rem /1.13rem 'Roboto', sans-serif;*/
+/*    color: red;*/
+    margin: auto;
+    padding: 1.25rem;
+    color: #444444; 
+}
+h2 {
+/*    position: absolute;*/
+    text-transform: capitalize;
+/*    color: black;*/
+    font-size: 1.75rem;
+    margin: 0.63rem 0 0 0;
+}
+
+
+
+/*              HOME PAGE              */
+
+.splashpage_mobile {
+    display: none;
+}
+.splashpage div h1 {
+    font-size: 6rem;
+}
+.splashpage div div img {
+    width: 60%;
+/*    height: 10%;*/
+/*    margin-left: 1rem;*/
+}
+.splashpage div .flex {
+    justify-content: flex-start;
+/*    align-items: center;*/
+}
+.splashpage p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.splashpage ul {
+    background-color: #FFFBF5;   
+/*    line-height: 2rem;*/
+}
+.splashpage .right {
+    background-color: #FFFBF5;   
+    width: 80%;
+}
+.splashpage {
+    background-image: url(../images/background1_50.gif);
+/*    background-image: url(../images/pexels-dids-3107180.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.splashpage span {
+    font:700 1.5rem/1.8rem "Crimson Text", sans-serif;
+/*    color: #ae572c;*/
+    color: #bf7950;
+    padding: none;
+}
+.splashpage .here, .splashpage div div p a:active, .splashpage div div p a:visited, .splashpage div div p a:hover, .splashpage div div p a:link {
+    padding: none;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+/*          HERO 1            */
+.hero1 {
+/*    background-image: url(../images/Artboard_2_103.jpg);*/
+    background-image: url(../images/pexels-dids-3906095.jpg);
+/*	background-color: #efddd5;*/
+    background-position: left;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero1 .name {
+    margin: 0;
+    color: #444444;
+    font:400 1rem 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.38rem;
+/*
+    word-spacing: 0.94rem;
+    letter-spacing: 0.13rem;
+*/
+}
+.hero1 .profile_pic {
+	max-width: 5.63rem;
+	max-height: 5.63rem;
+	border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.hero1 .info {
+	font:300 1rem/1.5rem 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 4.69rem;
+    padding-top: 0.63rem;
+    padding-bottom: 0.63rem;
+    max-width: 70%;
+}
+.hero1 .space { 
+    margin: 15rem 10rem 3rem 3rem;
+    padding: 3.13rem;
+/*    background-color: #F5F5F5;*/
+    background-color: #f7eeea;
+}
+.hero1 hr {
+    height: .2rem;
+    background: #A5B591;
+    width: 100%;
+}
+
+/*          HERO 2            */
+.hero2 {
+/*    background-image: url(../images/Artboard_2_101.jpg);*/
+    background-image: url(../images/pexels-dids-3704955.jpg);
+/*    background-image: url(../images/pexels-zaksheuskaya-1568607.jpg);*/
+	background-position: left;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero2 .name {
+    margin: 0;
+    color: #444444;
+    font:400 1rem 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.38rem;
+/*
+    word-spacing: 0.94rem;
+    letter-spacing: 0.13rem;
+*/
+}
+.hero2 .profile_pic {
+	max-width: 5.63rem;
+	max-height: 5.63rem;
+	border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.hero2 .info {
+	font:300 1rem/1.5rem 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 4.69rem;
+    padding-top: 0.63rem;
+    padding-bottom: 0.63rem;
+    max-width: 70%;
+}
+.hero2 .space { 
+    margin: 15rem 10rem 3rem 3rem;
+    padding: 3.13rem;
+/*    background-color: #F5F5F5;*/
+    background-color: #fcf8f7;
+}
+.hero2 hr {
+    height: .2rem;
+    background: #A5B591;
+    width: 100%;
+}
+
+/*          ICONS            */
+.icons a {
+    max-height: 24%;
+    max-width: 24%;
+    color: black;
+    text-align: center;
+    font:400 1rem 'Roboto', sans-serif;
+}
+.icons div a img {
+	max-width: 7rem;
+	max-height: 7rem;
+    margin: .01rem;
+}
+
+/*              PORTFOLIO LOGO              */
+.flex2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.logo {
+    width: 20%;
+    justify-content: flex-start;
+}
+.flex2 div span{
+    color: #dfefee;
+    background-color: #ae572c;
+}
+
+/*              PORTFOLIO IMAGES            */
+.hero2 div div h1 .profile_pic2 {
+	max-width: 5.63rem;
+	max-height: 5.63rem;
+	border-radius: 50%;
+/*    overflow: hidden;*/
+    vertical-align: middle;
+}
+.hero2 div div h1 .profile_pic3 {
+	max-width: 6.63rem;
+	max-height: 6.63rem;
+/*	border-radius: 50%;*/
+/*    overflow: hidden;*/
+    vertical-align: middle;
+}
+.header {
+  text-align: center;
+  padding: 3.88rem; 
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header h2 {
+	font:400 2rem /1.13rem 'Roboto', sans-serif;
+    width: 100%;
+    position: relative;
+}
+.header p {
+	font:300 1rem/1.5rem 'Roboto', sans-serif;
+    width: 100%;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 0.25rem;
+/*    border: 0.06rem solid red;*/
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0.25rem;
+/*    border: 0.06rem solid fuchsia;*/
+/*    background-color: aquamarine;*/
+}
+.column img {
+  margin-top: 0.50rem;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 50.00rem) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 37.50rem) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.container2 {
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+/*  background-color: #e3c9b5;*/
+}
+.container2:hover 
+.overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+button {
+  background-color: #e3c9b5;
+  border: none;
+  color: white;
+  padding: 0.94rem 2.00rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.00rem;
+  margin: 0.25rem 0.13rem;
+  cursor: pointer;
+    outline:none;  
+}
+
+ul li a:link, ul li a:active, ul li a:visited {
+	font:400 1rem /1.13rem 'Oswald', sans-serif;
+/*	color: #A5B591;*/
+	color: #BF7950;
+    text-decoration: none;
+    list-style-type: none;
+    padding: .5rem;
+}
+.nav ul {
+    color: #A5B591;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    color: #A5B591;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 1.25rem;
+    padding: 0;
+}
+.logo {
+    width: 30%;
+    margin: 0;
+}
+nav div img {
+    width: 35%;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+/*          PROFILE         */
+#profile {
+    text-align: center;
+}
+#profile #description {
+    line-height: 1.5rem;
+}
+#profile h2 {
+	font:100 2.5rem/1.5rem 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 3.13rem;
+}
+#profile img {
+	max-width: 11.25rem;
+	max-height: 11.25rem;
+	border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+#profile #objective {
+    width: 50%;
+    margin: auto;
+}
+#profile .goal{
+    display: inline-block;
+    width: 30%; 
+    margin: 5% 7% 5% 7%;
+    margin-top: 5%;
+    align-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#profile hr { 
+    width: 70%;
+    overflow: hidden; 
+    border-style: solid; 
+    border-width: 0.06rem;
+    border-color: gray;
+    margin: auto;
+}
+#profile .diff_services {
+    justify-content: center;
+    display: inline-flex;
+}
+#profile ul {
+    color: #A5B591;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#profile ul li {
+    color: #A5B591;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 1.25rem;
+}
+
+/*          BACKGROUND         */
+#background {
+/*    text-align: center;*/
+}
+#background h2 {
+	font:100 2.5rem/1.5rem 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 3.13rem;
+}
+#background #education, #certifications, #experience {
+    width: 30%; 
+    margin-top: inherit;
+}
+#background .details {
+    width: 60%; 
+    margin-top: inherit;
+}
+#background ul {
+    list-style-type: none;
+    line-height: 1.56rem;
+    padding: 0;
+}
+#background ul ul {
+    list-style-type: disc;
+    line-height: 1.56rem;
+    padding-left: 1.25rem;
+}
+#background li {
+    margin-left: 3.13rem;
+}
+#background .flex {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+/*    color:  #444444;*/
+
+/*          QUALITIES         */
+#qualities #accomplishments, #activities, #skills {
+    width: 30%; 
+    margin-top: inherit;
+}
+#qualities h2 {
+	font:100 2.5rem/1.5rem 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 3.13rem;
+}
+#qualities .details {
+    width: 60%; 
+    margin-top: inherit;
+}
+#qualities ul {
+    list-style-type: none;
+    line-height: 1.56rem;
+    padding: 0;
+}
+#qualities ul ul {
+/*    list-style-image: url()*/
+    line-height: 1.56rem;
+    padding-left: 1.25rem;
+}
+#qualities li {
+    margin-left: 3.13rem;
+}
+#qualities .flex {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+#qualities .details .skillBoxes {
+    padding: 0.31rem 0;
+}
+#qualities #skillBox {
+    margin: 3.13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
+#qualities .details .two {
+    color: white;
+    background-color: #444444;
+    text-decoration: none;
+    padding: 0.31rem;
+    width: 30%;
+}
+#qualities .details .three {
+    color: #444444;
+    box-sizing: border-box;
+    border: 0.13rem solid #444444;
+    text-decoration: none;
+    padding: 0.31rem;
+    width: 30%;
+}
+
+/*          CONTACT         */
+
+.accordion, .active, .panel {
+    display: none;
+}
+/*           CONTACT PAGE           */
+
+/*@media screen and (max-width: 37.50rem) {}*/
+@media screen and (max-width: 62.94rem) {
+    p.triangle-word a:link, p.triangle-word a:active, p.triangle-word a:visited {
+        font:500 1rem /1.13rem 'Oswald', sans-serif;
+    }
+    p.triangle-words a:link, p.triangle-words a:active, p.triangle-words a:visited {
+        font:500 1.3rem /1.13rem 'Oswald', sans-serif;
+    }
+    h1.title  {
+        font: 400 6rem /1.13rem 'Oswald', sans-serif;
+    }
+    .logo {
+        width: 40%;
+        justify-content: flex-start;
+        max-width: 300px; 
+        max-height: 400px;
+    }
+    ul li a:link, ul li a:active, ul li a:visited {
+        font:400 1.5rem /1.13rem 'Oswald', sans-serif;
+        color: #BF7950;
+        text-decoration: none;
+        list-style-type: none;
+        padding: .5rem;
+    }
+    .splashpage {
+        display: none;
+    }
+    .splashpage_mobile {
+        display: contents;
+    }
+    .splashpage_mobile div h1 {
+    font-size: 5rem;
+    }
+    .splashpage_mobile div img {
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 400px;
+    }
+    .splashpage_mobile div {
+        justify-content: center;
+        display: block;
+        width: 80%;
+    }
+    .splashpage_mobile div p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .splashpage_mobile {
+/*        background-image: url(../images/background1_50.gif);*/
+        background-image: url(../images/pexels-dids-3906095.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 40.00rem) {
+    h2 {
+        font-size: 1.25rem;
+    }
+    .hero1 .space {
+    margin: 3rem 3rem 3rem 3rem;
+    }
+    a:link {
+        padding: 0;
+    }
+
+@media screen and (max-width: 37.00rem) {
+     
+}
+@media screen and (max-width: 41.56rem) {
+    .logo {
+        width: 50%;
+        justify-content: flex-start;
+        max-width: 400px; 
+        max-height: 300px;
+    }
+    a:link {
+       padding: 1.25rem;
+    }
+    .menu {
+        display: none;
+    }
+    .accordion {
+        display: flex;
+/*        margin-left: auto;*/
+        background-color: #F5F5F5;
+        color: #444;
+        cursor: pointer;
+        padding: 10px;
+/*        width: 10%;*/
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    } 
+    .active, .accordion:hover {
+        background-color: #F5F5F5; 
+    }
+    .panel {
+        padding: 0 18px;
+/*        display: none;*/
+        overflow: hidden;
+        text-align: end;
+    }
+    .panel a:link {
+        padding: 0;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+    .icons a {
+        max-height: none;
+        max-width: none;
+    }
+    .icons div a img {
+        max-width: 3rem;
+        max-height: 3rem;
+    }
+    .flex1 {
+        display: block;
+        text-align: center;
+    }
+    #qualities .details .two {
+        width: 100%;
+    }
+    #qualities .details .three {
+        width: 100%;
+    }
+    .hero1 .name {
+        font:400 1.5rem 'Roboto', sans-serif;
+    }
+    .hero1 .profile_pic {
+        max-width: 3.63rem;
+        max-height: 3.63rem;
+    }
+    .hero1 .info {
+        padding: 0;
+        max-width: 100%;
+    }
+    
+
+}
+
+body a:hover, a:hover, ul li a:hover {
+    color: darkseagreen;
+}
+.specs tr {
+    border-bottom: 1px solid black;
+}

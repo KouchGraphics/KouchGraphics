@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intital-scale=1.0">
+<title>Home | Sarah Kouch</title>
+<!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
+<link rel="stylesheet" href="css/styles_PORT.css" type="text/css">
+</head>    
+<body>
+    <section class="top"></section>
+    
+    <!--MENU-->
+    <section class="flex nav">
+        <div class="logo flex">
+            <img src="images/LogoFinal-100.png" class="logo">
+<!--            <h2 data-text="Sarah Kouch"><a href="index.html">Sarah Kouch</a></h2>-->
+        </div>
+        <div class="menu">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Work</a></li>
+                <li><a href="resume.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <button class="accordion">&#9679;&#9679;&#9679;</button>
+            <div class="panel">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="portfolio.html">Work</a></p>
+                <p><a href="resume.html">About</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <script> var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+    </section>
+    
+<!--    <section class="screen splashflex">-->
+<section class="splashpage">   
+    <div class="container flex">
+          <div class="flex left">
+            <h1>Hello!</h1>
+            <img src="images/me.gif">
+          </div>
+          <div class="right">
+            <p>My name is Sarah Kouch, creator of <span>Kouch Graphics</span>, and I’d love to welcome you to my website. Feel free to mosey through the pages, as there is quite a bit to behold!</p>
+              <br>
+            <ul>
+                <p class="splashpage">Here are some fun facts about me:</p>
+                <li>Raised in Clermont, Florida</li>
+                <li>Former Competitive Swimmer with a passion for the sport</li>
+                <li>Big Marvel Fan</li>
+                <li>Avid Reader</li>
+                <li>Never broken a bone</li>
+                <li>Enjoy playing with color matching software for fun</li>
+<!--
+                <li>I love how uniquely created each individual person is: with numerous ideas born from their unique perspectives</li>
+                <li>Our imaginations can be astonishing and, to me, graphic design is a visual representation of that creativity</li>
+                <li>I like to explore with my mind, while going places physically is very exciting, I also like to explore possibilities and to be able to think of an idea and work from there</li>
+-->
+            </ul>
+<!--
+              <br>
+              <p class="bottom">Would I be a good fit? Download my interactive Magazine<a href="../Website1/images/404_Page.jpg" target="_blank" download><span class="here">here</span></a>to learn more about me!</p>
+-->
+            </div>
+    </div>
+    <section class="container flex">
+        <a href="#top" class="upArrow">Back to Top</a>
+    </section>
+</section>
+    
+    <section class="splashpage_mobile">   
+        <div class="container flex">
+            <h1>Hello!</h1>
+            <img src="images/me.gif">
+            <p>My name is Sarah Kouch, creator of <span>Kouch Graphics</span>, and I’d love to welcome you to my website. Feel free to mosey through the pages, as there is quite a bit to behold!</p>
+              <br>
+            <ul>
+                <p class="splashpage_mobile">Here are some fun facts about me:</p>
+                <li>Raised in Clermont, Florida</li>
+                <li>Former Competitive Swimmer with a passion for the sport</li>
+                <li>Big Marvel Fan</li>
+                <li>Avid Reader</li>
+                <li>Never broken a bone</li>
+                <li>Enjoy playing with color matching software for fun</li>
+<!--
+                <li>I love how uniquely created each individual person is: with numerous ideas born from their unique perspectives</li>
+                <li>Our imaginations can be astonishing and, to me, graphic design is a visual representation of that creativity</li>
+                <li>I like to explore with my mind, while going places physically is very exciting, I also like to explore possibilities and to be able to think of an idea and work from there</li>
+-->
+            </ul>
+<!--
+              <br>
+              <p class="bottom">Would I be a good fit? Download my interactive Magazine<a href="../Website1/images/404_Page.jpg" target="_blank" download><span class="here">here</span></a>to learn more about me!</p>
+-->
+        </div>
+    <section class="container flex">
+        <a href="#top" class="upArrow">Back to Top</a>
+    </section>
+</section>
+    
+</body>
+</html>
